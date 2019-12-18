@@ -4,6 +4,9 @@ Instargram clone with Express + Prisma + React and React Native
 
 ## User Stories
 
+- [x] Create account
+- [ ] Request Secret
+- [ ] Confirm Secret(Login)
 - [ ] Log in
 - [ ] Like / Unlike a photo
 - [ ] Comment on a photo
@@ -13,7 +16,6 @@ Instargram clone with Express + Prisma + React and React Native
 - [ ] Follow / Unfollow User
 - [ ] See the full photo
 - [ ] Edit my profile
-- [ ] Create account
 - [ ] Upload a photo
 - [ ] edit the photo (Delete)
 - [ ] See the feed
