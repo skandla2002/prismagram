@@ -12,6 +12,7 @@ export default {
         return true;
       } catch (error) {
         console.log(error);
+      } catch {
         return false;
       }
     }
