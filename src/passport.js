@@ -21,4 +21,14 @@ const verifyUser = (payload, done) => {
   }
 };
 
+
+export const authenticateJwt = (req, res, next) =>  
+ // fn(req, res, next) 와 같은 함수임
+  passport.authenticate("jwt", {sessions: false}, (error, user) => {
+    if(user){
+      req.user = user;
+    }
+    next();
+  })(req, res, next);
+
 passport.use(new Strategy(jwtOptions, verifyUser));
